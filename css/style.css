@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(36, 19%, 95%);
+}
+
+
+header {
+    height: 50px;
+    background-color: hsl(166, 92%, 26%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(24, 24, 24);
+}
+
+ul {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.product {
+    padding: 20px;
+    list-style: none;
+}
+
+.product-content {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 91%);
+    width: 350px;
+    border-radius: 15px;
+}
+
+.product img {
+    height: 60%;
+    width: 60%;
+    margin: 15px auto;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.product-info div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product-info p {
+    font-size: large;
+    margin: 0px 0px 20px 0;
+}
+
+.product-info div button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: hsl(166, 92%, 26%);
+    color: white;
+    font-size: medium;
+}
+
+.product-info div button:hover {
+    cursor: pointer;
+    background-color: hsl(166, 92%, 20%);
+}

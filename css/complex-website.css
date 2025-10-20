@@ -193,6 +193,7 @@ a, a:hover, a:focus, a:active, a:visited {
     height: 40px;
     font-size: medium;
     margin-left: -50px;
+    /*TODO FIX*/
 }
 
 #basket-img {
@@ -277,7 +278,7 @@ main li {
 
 .product-info div input {
     width: 60px;
-    height: 34px;
+    height: 33.5px;
     border: 3px solid hsl(166, 92%, 26%);
     border-radius: 25px 0 0 25px;
     text-align: center;
@@ -318,11 +319,12 @@ main li {
 .vl {
     border-left: 4px solid hsl(0, 0%, 91%);
     height: 150px;
+    margin-left: -100px;
   }
 
 #socials {
     list-style: none;
-    margin-left: 0;
+    margin-left: -150px;
 }
 
 #logos {
@@ -334,4 +336,18 @@ main li {
     background-color: hsl(36, 19%, 95%);
     padding: 10px 0;
     margin-top: 10px;
+}
+
+#footer-bottom ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#footer-bottom ul li {
+    padding: 0 200px;
+}
+
+#footer-bottom ul li img {
+    padding: 5px;
 }
