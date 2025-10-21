@@ -5,8 +5,8 @@
 }
 
 .container {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: hsl(36, 19%, 95%);
 }
 
@@ -25,31 +25,43 @@ h1 {
 }
 
 ul {
-    padding: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    height: 100%;
 }
 
 .product {
-    padding: 20px;
     list-style: none;
+    padding: 20px;
 }
 
 .product-content {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 91%);
-    width: 350px;
+    width: 340px;
     border-radius: 15px;
 }
 
-.product img {
+.image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 250px;
+}
+
+.vertical {
     height: 60%;
+    width: 80%;
+}
+
+.horizontal {
+    height: 80%;
     width: 60%;
+}
+
+.image-container img {
     margin: 15px auto;
 }
 
@@ -69,11 +81,6 @@ ul {
     justify-content: center;
 }
 
-.product-info p {
-    font-size: large;
-    margin: 0px 0px 20px 0;
-}
-
 .product-info div button {
     width: 250px;
     height: 40px;
@@ -87,4 +94,23 @@ ul {
 .product-info div button:hover {
     cursor: pointer;
     background-color: hsl(166, 92%, 20%);
+}
+
+.product-info div input {
+    width: 60px;
+    height: 33.5px;
+    border: 3px solid hsl(166, 92%, 26%);
+    border-radius: 25px 0 0 25px;
+    text-align: center;
+    margin-left: 50px;
+    background-color: white;
+}
+
+.product-info p {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 24, 24);
 }
