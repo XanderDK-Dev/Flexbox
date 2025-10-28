@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/complex-website.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/83542e4ae4.js" crossorigin="anonymous"></script>
+    <title>Flexbox</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <header>
+                <ul class="pt-sans-regular proper-width">
+                    <li>PRISGARANTI</li>
+                    <li class="list-dot">FRI FRAGT*</li>
+                    <li class="list-dot">INGEN MINDSTEBESTILLING </li>
+                </ul>
+            </header>
+            <div class="logo-login">
+                <button id="login" type="button" class="pt-serif-bold">Log ind</button>
+                <img src="./img/logo.svg" alt="Company Logo">
+            </div>
+            <hr class="proper-width">
+            <nav>
+                <ul class="pt-sans-regular">
+                    <li><a href="#">Rødvin</a></li>
+                    <li><a href="#">Hvidvin</a></li>
+                    <li><a href="#">Bobler</a></li>
+                    <li><a href="#">Portvin</a></li>
+                    <li><a href="#">Vinpakker</a></li>
+                    <li><a href="#">Spiritus</a></li>
+                    <li><a href="#">Øvrige</a></li>
+                    <li><a href="#">Nyheder</a></li>
+                </ul>
+                <input id="search-button" type="button" >
+                <input class="pt-sans-regular" id="search" type="text" placeholder="Søg...." size="35" >
+                <img id="basket-img" src="./img/basket.png" alt="Kurv icon">
+            </nav>
+        </div>
+         <main>
+            <ul>
+                <li class="product">
+                    <div class="product-content">
+                        <img src="./img/beer1.png" alt="Øl">
+                        <div class="product-info pt-serif-regular">
+                            <p><b>Skovlyst,</b> Ellebryg Julebryg</p>
+                            <div>
+                                <p>17,00 DKK</p>
+                                <div class="quantity">
+                                    <input type="number" value="1" min="1" max="99">
+                                    <button type="button">Køb</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="product-content">
+                        <img src="./img/beer2.png" alt="Øl">
+                        <div class="product-info pt-serif-regular">
+                            <p><b>Skovlyst,</b> Ellebryg Julebryg</p>
+                            <div>
+                                <p>17,00 DKK</p>
+                                <div class="quantity">
+                                    <input type="number" value="1" min="1" max="99">
+                                    <button type="button">Køb</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="product-content">
+                        <img src="./img/beer3.png" alt="Øl">
+                        <div class="product-info pt-serif-regular">
+                            <p><b>Skovlyst,</b> Ellebryg Julebryg</p>
+                            <div>
+                                <p>17,00 DKK</p>
+                                <div class="quantity">
+                                    <input type="number" value="1" min="1" max="99">
+                                    <button type="button">Køb</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="product-content">
+                        <img src="./img/beer4.png" alt="Øl">
+                        <div class="product-info pt-serif-regular">
+                            <p><b>Skovlyst,</b> Ellebryg Julebryg</p>
+                            <div>
+                                <p>17,00 DKK</p>
+                                <div class="quantity">
+                                    <input type="number" value="1" min="1" max="99">
+                                    <button type="button">Køb</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="product">
+                    <div class="product-content">
+                        <img src="./img/beer5.png" alt="Øl">
+                        <div class="product-info pt-serif-regular">
+                            <p><b>Skovlyst,</b> Ellebryg Julebryg</p>
+                            <div>
+                                <p>17,00 DKK</p>
+                                <div class="quantity">
+                                    <input type="number" value="1" min="1" max="99">
+                                    <button type="button">Køb</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <ul id="info" class="pt-sans-regular">
+                    <li>
+                        <h3><b>Om os</b></h3>
+                        <p>Om WineShopp <br>Bliv medlem</p>
+                    </li>
+                    <li>
+                        <h3><b>Betingelser</b></h3>
+                        <p>
+                        Ofte stillede spørgsmål<br> 
+                        Handelsbetingelser<br> 
+                        Medlemsbetingelser<br>
+                        "Fragt og levering"
+                        </p>
+                    </li>
+                    <li>
+                        <h3><b>Hjælp</b></h3>
+                        <p>
+                        Job hos Wineshopp<br>
+                        Åbningtider kundeservice<br>
+                        Tip os om en vin<br>
+                        Marketing
+                        </p>
+                    </li>
+                    <li>
+                        <div class="vl"></div>
+                    </li>
+                </ul>
+                <ul id="socials" class="pt-sans-regular">
+                    <li><h3><b>Sociale medier</b></h3></li>
+                    <li id="logos"> <i class="fa-brands fa-facebook-f fa-2x"></i><br>
+                        <i class="fa-brands fa-instagram fa-2x"></i><br>
+                        <i class="fa-brands fa-linkedin-in fa-2x"></i><br>
+                        <i class="fa-brands fa-youtube fa-2x"></i></li>
+                    <li><p>Aldersbegrænsinger <br>
+                    16 år for alkohol under 16,5% <br>
+                    18 år for alkohol over 16,5%</p></li>
+                </ul>
+            </div>
+            <div id="footer-bottom" class="pt-sans-regular">
+                <ul>
+                    <li><p>WineShopp - Hokusvej 34 - DK1234 Pokus - kontakt@wineshopp.dk - +45 12 34 56 78 - CVR: 12345</p></li>
+                    <li>
+                        <img src="./img/dankort.svg" alt="dankort">
+                        <img src="./img/maestro.svg" alt="maestro">
+                        <img src="./img/mastercard.svg" alt="mastercard">
+                        <img src="./img/visa.svg" alt="visa">
+                        <img src="./img/visaelectron.svg" alt="visaelectron"></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

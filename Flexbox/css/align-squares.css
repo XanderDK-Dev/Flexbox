@@ -1,0 +1,64 @@
+.parent {
+    width: 570px;
+    margin: 0 auto;
+}
+
+.child {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+    background-color: #999;
+}
+
+#a {
+    display: flex;
+    flex-wrap: wrap;;
+}
+
+.small-box {
+    background-color: #fea500;
+    width: 60px;
+    height: 60px;
+}
+
+#top-left {
+    justify-content: flex-start;
+}
+
+#top {
+    justify-content: center;
+}
+
+#top-right {
+    justify-content: flex-end;
+}
+
+#left {
+    align-items: center;
+}
+
+#middle {
+    justify-content: center;
+    align-items: center;
+}
+
+#right {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#bot-left {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#bot {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#bot-right {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
