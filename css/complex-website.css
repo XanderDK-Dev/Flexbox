@@ -84,6 +84,7 @@ header ul {
     list-style: none;;
     width: 100%;
     margin: 8px 0;
+    padding: 0;
 }
 
 header ul li {
@@ -128,7 +129,7 @@ header ul li {
 
 hr {
     margin-top: 0;
-    width: 100%;
+    width: 99%
 }
 
 /* Nav Bar */
@@ -263,7 +264,6 @@ main li {
 
 .product-info div button {
     width: 120px;
-    height: 40px;
     border: none;
     border-radius: 0 25px 25px 0;
     background-color: hsl(166, 92%, 26%);
@@ -276,9 +276,12 @@ main li {
     background-color: hsl(166, 92%, 20%);
 }
 
+.quantity {
+    height: 40px;
+}
+
 .product-info div input {
     width: 60px;
-    height: 33.5px;
     border: 3px solid hsl(166, 92%, 26%);
     border-radius: 25px 0 0 25px;
     text-align: center;
